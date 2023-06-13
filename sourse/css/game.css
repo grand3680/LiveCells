@@ -1,0 +1,41 @@
+body {
+    background-color: snow;
+}
+
+#main_canvas {
+    height: 300px;
+    width: 300px;
+    border: black 5px solid;
+    background-color: #121111;
+    margin-top: 50px;
+}
+
+section {
+    justify-content: space-between;
+    text-align: center;
+}
+
+#buttonLife {
+    transition: all 1s;    
+    background-color: #b8afae;
+    width: 125px;
+    height: 55px;
+    color: rgb(210, 99, 99);
+    border: #7a6969 2.5px solid;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border-radius: 0.1em;
+}
+
+#buttonLife:hover {
+    transform: scale(0.95);
+    color: black;
+
+} 
+
+p {
+    font-size: 25px;
+    color: #5656c6;
+    font-family: fantasy;
+}
